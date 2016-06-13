@@ -1,0 +1,19 @@
+{
+  "name": "mastering_nodejs_June3rd",
+  "version": "1.0.0",
+  "description": "understanding npm and package.json",
+  "main": "helloExp.js",
+  "scripts": {
+    "test": "node helloExp.js", 
+    "pretest": "dir ..",
+    "posttest": "dir node_modules"
+  },
+  "dependencies":{"express":"latest"},
+  "config":{"port":"1968"},
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "Akhil",
+  "license": "MIT"
+}
